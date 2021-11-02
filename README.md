@@ -7,7 +7,7 @@ A professor at an Asheville college asked on a local slack for suggestions on di
 * Similarly, I just declare the relationship between triplets one by one (eg `(= (* a3 a3) (* a6 a7))`) rather than capturing the structure of the pyramid,
 * I omit the non-integer root element entirely because the finite domain extension of core.logic is built to deal with integers — and of course it’s trivial to calculate the root once you’ve got the rest.
 
-If I’d had more time I could have probably made it much more concise and elegant. Hopefully it still gives a general sense of how logic programming lets you just describe the problem and ask for the solution(s) you want.
+My solution is [here](https://github.com/eggsyntax/productsquare/blob/master/src/eggsyntax/productsquare.clj). If I’d had more time I could have probably made it much more concise and elegant. Hopefully it still gives a general sense of how logic programming lets you just describe the problem and ask for the solution(s) you want.
 
 ## Installation
 
