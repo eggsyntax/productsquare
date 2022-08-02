@@ -11,7 +11,15 @@ My solution is [here](https://github.com/eggsyntax/productsquare/blob/master/src
 
 ## Installation
 
-Download from https://github.com/eggsyntax/productsquare
+Download from https://github.com/eggsyntax/productsquare and run
+```shell
+clj -X eggsyntax.productsquare/-main
+```
+
+or start a REPL with
+```shell
+clj --eval "(require 'eggsyntax.productsquare)" --eval "(in-ns 'eggsyntax.productsquare)" --repl
+```
 
 ## Usage
 
